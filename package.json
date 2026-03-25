@@ -1,0 +1,17 @@
+{
+  "name": "cursor-pagination-demo",
+  "version": "1.0.0",
+  "description": "Cursor-based pagination for GET /users",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --experimental-sqlite node_modules/.bin/jest --forceExit"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
